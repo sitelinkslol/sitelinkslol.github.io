@@ -71,5 +71,20 @@ footer {
     position: absolute;
     bottom: 0;
     width: 100%;
+.green-label {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #1DA1F2; /* Green background color */
+    color: white;
+    text-decoration: none; /* Removes the underline */
+    border-radius: 5px; /* Rounds the corners */
+    font-weight: bold;
+    font-size: 16px;
+    transition: background-color 0.3s ease; /* Smooth color transition */
 }
+
+.green-label:hover {
+    background-color: #0a74da; /* Darker green when hovered */
+}
+
 
